@@ -1,2 +1,1 @@
-# google-data-analytics
-Google Data Analytics
+# Google Data Analytics
