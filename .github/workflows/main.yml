@@ -22,3 +22,11 @@ jobs:
 
       - name: file list after checkout
         run: ls -la
+
+  test:
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Hello another job
+        run: echo "Hello, world!"
