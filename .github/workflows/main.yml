@@ -13,3 +13,12 @@ jobs:
     steps:
       - name: Hello World
         run: echo "Hello, world!"
+
+      - name: file list before checkout
+        run: ls -la
+
+      - name: checkout repo
+        uses: actions/checkout@v4
+
+      - name: file list after checkout
+        run: ls -la
